@@ -1,3 +1,70 @@
 body {
+	line-height: 1.5;
+}
+
+.form-group {
+	background-color: MistyRose;
+	margin: auto;
+	padding: 10px;
+	margin: 10px auto;
+	max-width: 50%;
 	
+}
+/*Header*/
+
+header h1, p {
+	text-align: center;
+}
+/*Titles*/
+
+#name-label, #email-label, #number-label, 
+#user-recommend-p, #prefer-p, #comments-p {
+	text-align: left;
+}
+
+/*Entry box styles*/
+
+#name, #email, #number, #dropdown, #most-like, #comments, #submit {
+	width: 95%;
+	margin: auto;
+}
+
+/*Radio User Recommend*/
+
+.radio-label {
+	display: block;
+	padding-left: 15px;
+	text-indent: -15px;
+}
+
+.input-radio {
+	width: 15px;
+	height: 15px;
+	padding: 0;
+	margin: 0;
+	vertical-align: bottom;
+	position: relative;
+	top: -5px;
+}
+/*Checkbox Any Improvements Entry*/
+
+.checkbox-label {
+	display: block;
+	padding-left: 15px;
+	text-indent: -15px;
+}
+.input-checkbox {
+	width: 15px;
+	height: 15px;
+	padding: 0;
+	margin: 0;
+	vertical-align: bottom;
+	position: relative;
+	top: -5px;
+}
+
+/*Submit Button*/
+
+#submit {
+	background-color: green;
 }
