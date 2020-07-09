@@ -30,7 +30,7 @@
 			</div>
 <!--Dropdown Current Role Entry-->			
 			<div class="form-group">
-				<label for="dropdown">Which best describes your current role?</label>
+				<label id="current-role-label" for="dropdown">Which best describes your current role?</label>
 				<br>
 				<select id="dropdown" name="role" class="">
 					<option disabled selected value>Select an option</option>
@@ -43,7 +43,7 @@
 			</div>
 <!--Radio User Recommend Entry-->			
 			<div class="form-group">
-				<p id="user-recommend-p">Would you recommend FCC to a friend?</p>
+				<p id="user-recommend-p">Would you recommend freeCodeCamp to a friend?</p>
 				<label class="radio-label">
 					<input type="radio" name="user-recommend" value="definitely" class="input-radio" checked> Definitely
 				</label>
@@ -57,7 +57,7 @@
 <!--Dropdown Favorite Feature Entry-->			
 			<div class="form-group">
 				<!--<p>What is your favorite feature of FCC?</p>-->
-				<label for="mostLike">What is your favorite feature of FCC?</label>
+				<label id="most-like-label" for="mostLike">What is your favorite feature of freeCodeCamp?</label>
 				<br>
 				<select id="most-like" name="mostLike" class="form-control" required>
 					<option disabled selected value>Select an option</option>
@@ -116,6 +116,9 @@
 				</button>
 			</div>			
 		</form>
+		<footer>
+			<p id="copyright"><span>&copy; Copyright freeCodeCamp 2020 | Hero Photo by NESA by Makers on Unsplash</span></p>
+		</footer>
 	</div>
 </body>
 </html>
