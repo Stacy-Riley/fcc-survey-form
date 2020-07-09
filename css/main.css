@@ -1,25 +1,47 @@
 body {
 	line-height: 1.5;
+	background:url("../img/hero.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+	background-size: cover;
 }
 
+/*Form styling */
 .form-group {
-	background-color: MistyRose;
+	background-color: rgba(192,192,192,0.3); /*gray color of form*/
+	background-size: cover;
+	background-repeat: no-repeat;
 	margin: auto;
 	padding: 10px;
-	margin: 10px auto;
+	margin: 0 auto;
 	max-width: 50%;
-	
 }
 /*Header*/
 
-header h1, p {
+#title {
 	text-align: center;
+	text-shadow: 5px 3px 2px black;
+	color: white;
+	font-size: 35px;
+}
+
+#description {
+	text-align: center;
+	text-shadow: 5px 2px 3px black;
+	color: white;
+	font-size: 20px;
 }
 /*Titles*/
 
-#name-label, #email-label, #number-label, 
-#user-recommend-p, #prefer-p, #comments-p {
+#name-label, #email-label, #number-label, #current-role-label, 
+#most-like-label, #user-recommend-p, #prefer-p, #comments-p {
 	text-align: left;
+	padding-bottom: 0px;
+	margin-bottom: 5px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 /*Entry box styles*/
@@ -35,9 +57,11 @@ header h1, p {
 	display: block;
 	padding-left: 15px;
 	text-indent: -15px;
+	color: white;
 }
 
 .input-radio {
+	color: white;
 	width: 15px;
 	height: 15px;
 	padding: 0;
@@ -46,9 +70,11 @@ header h1, p {
 	position: relative;
 	top: -5px;
 }
+
 /*Checkbox Any Improvements Entry*/
 
 .checkbox-label {
+	color: white;
 	display: block;
 	padding-left: 15px;
 	text-indent: -15px;
@@ -56,7 +82,7 @@ header h1, p {
 .input-checkbox {
 	width: 15px;
 	height: 15px;
-	padding: 0;
+	padding-top: 0;
 	margin: 0;
 	vertical-align: bottom;
 	position: relative;
@@ -67,4 +93,13 @@ header h1, p {
 
 #submit {
 	background-color: green;
+	color: white;
+}
+
+/*Footer*/
+
+#copyright {
+	padding-top: 55px;
+	text-align: center;
+	color: white;
 }
